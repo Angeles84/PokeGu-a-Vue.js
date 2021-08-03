@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
       <a class="navbar-brand" href="#">Guía del Pokémon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -93,7 +93,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .logo {
-  width: 55%;
+  width: 50%;
   margin-top: 2em;
 }
 h1 {
