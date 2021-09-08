@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2 px-md-5">
       <a class="navbar-brand" href="#">Guía del Pokémon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -119,9 +119,15 @@ button {
   margin-bottom: 0.13em;
 }
 .div-card {
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   margin-bottom: 3em;
+}
+
+@media (min-width: 415px) {
+  .div-card {
+    width: 50%;
+  }
 }
 .poke-img {
   width: 9em;
