@@ -1,5 +1,5 @@
 # desafio-pokeguia
-
+Ver el sitio aquí https://poke-guia-app.netlify.app
 ## Project setup
 ```
 npm install
